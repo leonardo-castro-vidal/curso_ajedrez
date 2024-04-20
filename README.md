@@ -21,3 +21,13 @@ git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git
 
 git push -u origin master
 
+
+=============================================
+CUENTA GITHUB
+=============================================
+email : leonardo.castro.vidall@gmail.com
+usuario :  leonardogitbash8400
+nuevo nombre de usuario : leonardo-castro-vidal
+password : desarrollo4000gitbash2984
+repositorio java basico en github: https://github.com/leonardo-castro-vidal/JavaBasico.git
+token a utilizar en eclipse como password : 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
