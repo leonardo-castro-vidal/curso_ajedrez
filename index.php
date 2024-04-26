@@ -69,6 +69,16 @@
         .bordes {
             border: 1px solid red;
         }
+
+        .white-column {
+            height: 60px;
+            width: 60px;
+            background-color: white;
+            border: 0px solid white;
+            font-size: 25px;
+            text-align: center;
+            border:1px solid #ccc;
+        }
     </style>
 </head>
 
@@ -124,7 +134,8 @@
                     <thead>
                         <tr>
                             <th>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" class="form-control white-column">
+                                    <option value="0"></option>
                                     <option value="a">a</option>
                                     <option value="b">b</option>
                                     <option value="c">c</option>
@@ -136,7 +147,8 @@
                                 </select>
                             </th>
                             <th>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" class="form-control white-column">
+                                    <option value="0"></option>
                                     <option value="a">a</option>
                                     <option value="b">b</option>
                                     <option value="c">c</option>
@@ -148,7 +160,8 @@
                                 </select>
                             </th>
                             <th>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" class="form-control white-column">
+                                    <option value="0"></option>
                                     <option value="a">a</option>
                                     <option value="b">b</option>
                                     <option value="c">c</option>
@@ -160,7 +173,8 @@
                                 </select>
                             </th>
                             <th>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" class="form-control white-column">
+                                    <option value="0"></option>
                                     <option value="a">a</option>
                                     <option value="b">b</option>
                                     <option value="c">c</option>
@@ -172,7 +186,8 @@
                                 </select>
                             </th>
                             <th>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" class="form-control white-column">
+                                    <option value="0"></option>
                                     <option value="a">a</option>
                                     <option value="b">b</option>
                                     <option value="c">c</option>
@@ -184,7 +199,8 @@
                                 </select>
                             </th>
                             <th>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" class="form-control white-column">
+                                    <option value="0"></option>
                                     <option value="a">a</option>
                                     <option value="b">b</option>
                                     <option value="c">c</option>
@@ -196,7 +212,8 @@
                                 </select>
                             </th>
                             <th>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" class="form-control white-column">
+                                    <option value="0"></option>
                                     <option value="a">a</option>
                                     <option value="b">b</option>
                                     <option value="c">c</option>
@@ -208,7 +225,8 @@
                                 </select>
                             </th>
                             <th>
-                                <select name="" id="" class="form-control">
+                                <select name="" id="" class="form-control white-column">
+                                    <option value="0"></option>
                                     <option value="a">a</option>
                                     <option value="b">b</option>
                                     <option value="c">c</option>
@@ -221,7 +239,7 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody style="border: 1px solid black;">
+                    <tbody style="border: 1px solid #ccc;">
                         <tr>
                             <td><input type="text" maxlength="2" name="nombre" class="white borde_izquierdo_tablero borde_superior_tablero" id="id"></td>
                             <td><input type="text" maxlength="2" name="nombre" class="black borde_superior_tablero" id="id"></td>
